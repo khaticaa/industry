@@ -1,0 +1,75 @@
+.navbar-brand {
+  padding: 0px 30px;
+}
+
+#navbarNav {
+  padding: 0px 30px;
+  justify-content: flex-end !important;
+}
+
+nav {
+  position: absolute !important;
+  width: 100%;
+}
+
+.banner {
+  color: white;
+  width: 100%;
+  min-height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background: url("../images/h1_hero.jpg.webp"), linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+}
+.banner .banner-o {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.banner .banner-o .bannertext {
+  text-align: center;
+  max-width: 600px;
+}
+.banner .banner-o .bannertext h1 {
+  font-size: 50px;
+  text-align: center;
+}
+.banner .banner-o .bannertext p {
+  margin-bottom: 43px;
+  font-size: 21px;
+  text-align: center;
+}
+.banner .banner-o .bannertext .Check {
+  font-family: "Jost", sans-serif;
+  color: #fff;
+  background: #E61818;
+  border: none;
+  padding: 21px 33px 21px 25px !important;
+  text-transform: capitalize;
+  border-radius: 0px;
+  font-size: 18px;
+  font-weight: 400;
+  display: inline-block;
+  border-radius: 0px;
+}
+
+.section1 {
+  width: 100%;
+  padding: 50px 0px;
+}
+.section1 .s1-o .s1top {
+  display: flex;
+  align-items: center;
+}
+.section1 .s1-o .s1top h2 {
+  font-size: 41px;
+  max-width: 400px;
+}
+.section1 .s1-o .s1top .rotate {
+  background-color: aqua;
+  transform: rotate(-90deg);
+  font-size: 18px;
+  color: #E61818;
+  height: 20px;
+}/*# sourceMappingURL=style.css.map */
